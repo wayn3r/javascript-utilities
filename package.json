@@ -1,0 +1,24 @@
+{
+    "name": "javascript-utilities",
+    "version": "1.0.0",
+    "description": "Este repositorio es para guardar cualquier código que pueda ser reutlizable entre distintos proyectos de JavaScritpt",
+    "main": "index.js",
+    "devDependencies": {
+        "@testing-library/react": "^12.0.0",
+        "@testing-library/react-hooks": "^7.0.1",
+        "react-scripts": "^4.0.3"
+    },
+    "scripts": {
+        "test": "react-scripts test"
+    },
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "semi": false,
+        "singleQuote": true,
+        "arrowParens": "avoid"
+    },
+    "keywords": [],
+    "author": "Wayner",
+    "license": "ISC"
+}
