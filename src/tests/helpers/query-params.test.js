@@ -1,4 +1,4 @@
-import { queryParams } from '../../helpers/query-params'
+import { getQueryParams } from '../../helpers/query-params'
 
 describe('Pruebas en query-params', () => {
     test('debe devolver un objeto con todos los parametros', () => {
@@ -8,7 +8,7 @@ describe('Pruebas en query-params', () => {
             b: '2',
             c: '3',
         }
-        const params = queryParams(q)
+        const params = getQueryParams(q)
         expect(params).toEqual(expectedParams)
     })
 })
